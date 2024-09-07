@@ -5,4 +5,4 @@
  */
 /datum/vote
 	/// The sound effect played to everyone when this vote is initiated.
-	vote_sound = 'sound/misc/announce_dig.ogg'
+	vote_sound = 'modular_nekoma/sound/announcer_dig.ogg' // replaced sound attempt
