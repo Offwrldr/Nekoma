@@ -4,21 +4,21 @@
 			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 			<style type='text/css'>
 				@font-face {
-					font-family: "Ubuntu";
+					font-family: "Monofonto-Regular";
 					font-style: normal;
 					font-weight: 500;
 					font-display: block;
-					src: url("Ubuntu-Medium.ttf");
+					src: url("monofonto_rg.ttf");
 					}
 				@font-face {
-					font-family: "Fixedsys";
-					src: url("FixedsysExcelsior3.01Regular.ttf");
+					font-family: "Monofonto-Regular";
+					src: url("monofonto_rg.ttf");
 				}
 				body,
 				html {
 					margin: 0;
 					overflow: hidden;
-					font-family: "Fixedsys";
+					font-family: "Monofonto-Regular";
 					text-align: center;
 					background-color: #000000;
 					padding-top: 5vmin;
@@ -54,14 +54,14 @@
 				}
 
 				.terminal_text {
-					font-family: "Ubuntu";
+					font-family: "Monofonto-Regular";
 					font-weight: 500;
-					src: url("Ubuntu-Medium.ttf");
+					src: url("monofonto_rg.ttf");
 					display: inline-block;
 					text-decoration: none;
 					width: 100%;
 					text-align: left;
-					color:#00FF99;
+					color:#F1B132;
 					margin-right: 0%;
 					margin-top: 0px;
 					font-size: 2vmin;
@@ -74,10 +74,10 @@
 					left: calc(50% - 450px);
 					height: 72px;
 					width: 900px;
-					border-top: 4px solid #00FF99;
-					border-bottom: 4px solid #00FF99;
-					border-left: 4px solid #00FF99;
-					border-right: 4px solid #00FF99;
+					border-top: 4px solid #ffb641;
+					border-bottom: 4px solid #ffb641;
+					border-left: 4px solid #ffb641;
+					border-right: 4px solid #ffb641;
 					padding: 4px;
 					background-color: #000000;
 				}
@@ -85,7 +85,7 @@
 				.progress_bar {
 					width: 0%;
 					height: 100%;
-					background-image: url("https://cdn.effigy.se/bubber/bubbermoff_prog_900px.gif");
+					background-image: url("https://i.gyazo.com/16f556464e91e03485dd4a0cfe3fe9e1.gif");
 					background-position: center right;
 					background-color: #000000;
 				}
@@ -109,17 +109,17 @@
 					left:50%;
 					transform: translate(-50%, -50%);
 					z-index: 1;
-					border: 2px solid white;
-					border-radius: 4px;
-					box-shadow: 2px 2px #333, inset 1px 1px #333;
-					background: linear-gradient(to bottom, rgba(0, 179, 107, 0.9), rgba(0, 56, 34, 0.9));
-					opacity: 75%;
+					border: none;
+					border-radius: none;
+					box-shadow: none;
+					background: none;
+					opacity: 0%;
 					padding: 1em;
 				}
 
 				.container_nav hr {
 					height: 2px;
-					background-color: #CDEEE1;
+					background-color: #eecdcd;
 					border: none;
 					box-shadow: 2px 2px black;
 				}
@@ -127,15 +127,15 @@
 				.menu_button {
 					display: block;
 					box-sizing: border-box;
-					font-family: "Fixedsys";
-					font-weight: lighter;
+					font-family: "Monofonto-Regular";
+					font-weight: regular;
 					text-decoration: none;
 					font-size: 4vmin;
 					text-shadow: 2px 2px black;
 					line-height: 4vmin;
 					width: 100%;
-					text-align: left;
-					color: #CDEEE1;
+					text-align: center;
+					color: #e6a647;
 					height: 4vmin;
 					padding-left: 5vmin;
 					letter-spacing: 1px;
@@ -146,7 +146,7 @@
 
 				.menu_button:hover {
 					padding-left: 0px;
-					color: yellow;
+					color: red;
 				}
 
 				.menu_button:active {
@@ -210,7 +210,7 @@
 
 				.menu_notice {
 					display: inline-block;
-					font-family: "Fixedsys";
+					font-family: "Monofonto-Regular";
 					font-weight: lighter;
 					text-decoration: none;
 					width: 100%;

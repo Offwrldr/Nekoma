@@ -13,15 +13,23 @@
 			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 			<style type='text/css'>
 				@font-face {
-					font-family: "Fixedsys";
-					src: url("FixedsysExcelsior3.01Regular.ttf");
+					font-family: "Monofonto-Regular";
+					font-style: normal;
+					font-weight: 500;
+					font-display: block;
+					src: url("monofonto_rg.ttf");
+					}
+				@font-face {
+					font-family: "Monofonto-Regular";
+					src: url("monofonto_rg.ttf");
 				}
 				body,
 				html {
 					margin: 0;
 					overflow: hidden;
+					font-family: "Monofonto-Regular";
 					text-align: center;
-					background-color: black;
+					background-color: #000000;
 					padding-top: 5vmin;
 					-ms-user-select: none;
 					cursor: default;
@@ -45,48 +53,50 @@
 
 				.container_terminal {
 					position: absolute;
-					width: 100%;
-					height: calc(100% - 7vmin);
+					top: calc(90% - 3vmin);
+					left: calc(50% - 450px);
+					height: 3vmin;
+					width: 900px;
 					overflow: clip;
 					box-sizing: border-box;
-					padding: 3vmin 2vmin;
-					top: 0%;
-					left:0%;
 					z-index: 1;
 				}
 
 				.terminal_text {
+					font-family: "Monofonto-Regular";
+					font-weight: 500;
+					src: url("monofonto_rg.ttf");
 					display: inline-block;
-					font-weight: lighter;
 					text-decoration: none;
 					width: 100%;
-					text-align: right;
-					color:green;
-					text-shadow: 1px 1px black;
+					text-align: left;
+					color:#F1B132;
 					margin-right: 0%;
 					margin-top: 0px;
 					font-size: 2vmin;
-					line-height: 1vmin;
-					letter-spacing: 1px;
 				}
 
 				.container_progress {
 					position: absolute;
 					box-sizing: border-box;
-					bottom: 3vmin;
-					left: 2vmin;
-					height: 4vmin;
-					width: calc(100% - 4vmin);
-					border-left: 2px solid green;
-					border-right: 2px solid green;
+					top: 90%;
+					left: calc(50% - 450px);
+					height: 72px;
+					width: 900px;
+					border-top: 4px solid #ffb641;
+					border-bottom: 4px solid #ffb641;
+					border-left: 4px solid #ffb641;
+					border-right: 4px solid #ffb641;
 					padding: 4px;
-					background-color: black;
+					background-color: #000000;
 				}
 
 				.progress_bar {
 					width: 0%;
 					height: 100%;
-					background-color: green;
+					background-image: url("https://i.gyazo.com/16f556464e91e03485dd4a0cfe3fe9e1.gif");
+					background-position: center right;
+					background-color: #000000;
 				}
 
 				@keyframes fade_out {
@@ -108,17 +118,17 @@
 					left:50%;
 					transform: translate(-50%, -50%);
 					z-index: 1;
-					border: 2px solid white;
-					border-radius: 4px;
-					box-shadow: 2px 2px #333, inset 1px 1px #333;
-					background: linear-gradient(to bottom, rgba(68, 68, 204, 0.9), rgba(0, 0, 102, 0.9));
-					opacity: 75%;
+					border: none;
+					border-radius: none;
+					box-shadow: none;
+					background: none;
+					opacity: 0%;
 					padding: 1em;
 				}
 
 				.container_nav hr {
 					height: 2px;
-					background-color: #cde;
+					background-color: #eecdcd;
 					border: none;
 					box-shadow: 2px 2px black;
 				}
@@ -126,15 +136,15 @@
 				.menu_button {
 					display: block;
 					box-sizing: border-box;
-					font-family: "Fixedsys";
-					font-weight: lighter;
+					font-family: "Monofonto-Regular";
+					font-weight: regular;
 					text-decoration: none;
 					font-size: 4vmin;
 					text-shadow: 2px 2px black;
 					line-height: 4vmin;
 					width: 100%;
-					text-align: left;
-					color: #cde;
+					text-align: center;
+					color: #e6a647;
 					height: 4vmin;
 					padding-left: 5vmin;
 					letter-spacing: 1px;
@@ -145,7 +155,7 @@
 
 				.menu_button:hover {
 					padding-left: 0px;
-					color: yellow;
+					color: red;
 				}
 
 				.menu_button:active {
@@ -173,7 +183,7 @@
 				}
 
 				@keyframes pollsbox {
-					0% {color: #cde;}
+					0% {color: #CDEEE1;}
 					50% {color: #f80;}
 				}
 
@@ -209,7 +219,7 @@
 
 				.menu_notice {
 					display: inline-block;
-					font-family: "Fixedsys";
+					font-family: "Monofonto-Regular";
 					font-weight: lighter;
 					text-decoration: none;
 					width: 100%;

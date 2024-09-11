@@ -6,4 +6,4 @@
 
 FoxxyRenamon = Host
 smytheguy = Host
-KathrinBailey = Gamemaster
+Rhody = Gamemaster

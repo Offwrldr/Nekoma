@@ -1,5 +1,5 @@
 <!-- Most valid html will work in here, but you have to use URL links for images. -->
 
-<h1>Welcome to Space Station 13!</h1>
+<h1>Welcome to Nekoma!</h1>
 
-<i>This server is running a /tg/station 13 Git build.</i>
+<i>This server is intended to to provide a mature, modernized and engaging Fallout experience that most-all players can enjoy, with dynamic faction relations, scheduled PvP warfare, PvE functionality and dungeons, and a semi-persistent effect upon the greater world-map - all settled upon a fork of Bubberstation.</i>
