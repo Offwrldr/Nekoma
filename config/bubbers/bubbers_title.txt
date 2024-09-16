@@ -4,21 +4,21 @@
 			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 			<style type='text/css'>
 				@font-face {
-					font-family: "Monofonto-Regular";
+					font-family: "Ubuntu";
 					font-style: normal;
 					font-weight: 500;
 					font-display: block;
-					src: url("monofonto_rg.ttf");
+					src: url("Ubuntu-Medium.ttf");
 					}
 				@font-face {
-					font-family: "Monofonto-Regular";
-					src: url("monofonto_rg.ttf");
+					font-family: "Fixedsys";
+					src: url("FixedsysExcelsior3.01Regular.ttf");
 				}
 				body,
 				html {
 					margin: 0;
 					overflow: hidden;
-					font-family: "Monofonto-Regular";
+					font-family: "Fixedsys";
 					text-align: center;
 					background-color: #000000;
 					padding-top: 5vmin;
@@ -54,9 +54,9 @@
 				}
 
 				.terminal_text {
-					font-family: "Monofonto-Regular";
+					font-family: "Ubuntu";
 					font-weight: 500;
-					src: url("monofonto_rg.ttf");
+					src: url("Ubuntu-Medium.ttf");
 					display: inline-block;
 					text-decoration: none;
 					width: 100%;
@@ -125,19 +125,21 @@
 				}
 
 				.menu_button {
+    				transform-origin: center;
+					transform: rotate(15deg);
 					display: block;
 					box-sizing: border-box;
-					font-family: "Monofonto-Regular";
-					font-weight: regular;
+					font-family: "Fixedsys";
+					font-weight: lighter;
 					text-decoration: none;
 					font-size: 4vmin;
 					text-shadow: 2px 2px black;
 					line-height: 4vmin;
-					width: 100%;
-					text-align: center;
+					width: 45vmin;
+					text-align: left;
 					color: #e6a647;
 					height: 4vmin;
-					padding-left: 5vmin;
+					padding-left: 0px;
 					letter-spacing: 1px;
 					cursor: pointer;
 					white-space: nowrap;
@@ -145,17 +147,15 @@
 				}
 
 				.menu_button:hover {
-					padding-left: 0px;
 					color: red;
 				}
 
 				.menu_button:active {
-					padding-left: 0px;
-					transform: translate(2px, 2px);
+					color: orange;
 				}
 
 				.menu_button:hover::before {
-					content: "☞";
+					content: ">";
 					text-align: center;
 					width: 5vmin;
 					display: inline-block;
@@ -210,7 +210,7 @@
 
 				.menu_notice {
 					display: inline-block;
-					font-family: "Monofonto-Regular";
+					font-family: "Fixedsys";
 					font-weight: lighter;
 					text-decoration: none;
 					width: 100%;
